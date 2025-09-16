@@ -1,6 +1,5 @@
 import { Mail, Moon, Rocket } from "lucide-react";
 import React from "react";
-import { BsCursor } from "react-icons/bs";
 import { PiCursor } from "react-icons/pi";
 // import Image from "next/image";
 // import run from "./run.png"
