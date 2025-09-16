@@ -164,7 +164,8 @@ const Landingpage = () => {
           <div className=" flex flex-col gap-3">
             <PiCursor className="text-blue-600" size={40} />
             <p>
-              Describe your business process to Headroom's AI assistant, Max
+              Describe your business process to Headroom&apos;s AI assistant,
+              Max
             </p>
           </div>
           <div className=" flex flex-col gap-3">
@@ -211,8 +212,8 @@ const Landingpage = () => {
         <Rocket size={40} />
         <div className="text-[29px] font-semibold">Ready to begin?</div>
         <div className="text-[13px] text-stone-400 w-[82%] text-center">
-          Sign up for our early access program to get started We'll be in touch
-          soon to talk about your business needs
+          Sign up for our early access program to get started We&apos;ll be in
+          touch soon to talk about your business needs
         </div>
         <button className="px-4 py-2 border rounded-md bg-blue-600 text-white">
           Get early access now
