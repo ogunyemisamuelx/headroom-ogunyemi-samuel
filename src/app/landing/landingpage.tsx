@@ -1,8 +1,7 @@
 import { Mail, Moon, Rocket } from "lucide-react";
 import React from "react";
 import { PiCursor } from "react-icons/pi";
-// import Image from "next/image";
-// import run from "./run.png"
+import Image from "next/image";
 
 const Landingpage = () => {
   return (
@@ -10,7 +9,14 @@ const Landingpage = () => {
       {/* {Run on AutoPilot} */}
       <div title="runAutoPilotImage">
         {/* <div className="w-[700px] h-[300px]  mt-10"> */}
-        <img src="/1run.png" alt="" className="w-full h-auto rounded-md" />
+        <Image
+          height={0}
+          width={0}
+          sizes="100vw"
+          src="/1run.png"
+          alt=""
+          className="w-full h-auto rounded-md"
+        />
         {/* </div> */}
       </div>
       <div title="twoButton" className="gap-3 flex mt-4">
@@ -33,19 +39,40 @@ const Landingpage = () => {
         </div>
       </div>
       {/* <div className="w-[700px] h-[400px] shadow-md"> */}
-      <img src="/2project.png" alt="" className="w-full h-auto rounded-md" />
+      <Image
+        height={0}
+        width={0}
+        sizes="100vw"
+        src="/2project.png"
+        alt=""
+        className="w-full h-auto rounded-md"
+      />
       {/* </div> */}
       <div>
         <p className="text-[11px] text-slate-400 text-center">
           Loved by thousands of small business
         </p>
         {/* <div className=" w-[300px] h-[100px] flex justify-center items-center"> */}
-        <img src="/logo.png" alt="" className="w-full h-auto rounded-md" />
+        <Image
+          height={0}
+          width={0}
+          sizes="100vw"
+          src="/logo.png"
+          alt=""
+          className="w-full h-auto rounded-md"
+        />
         {/* </div> */}
       </div>
       {/* {your Ai assistant} */}
       {/* <div className="w-[1024px] h-[900px] "> */}
-      <img src="/3ai.png" alt="" className="w-full h-auto rounded-md" />
+      <Image
+        height={0}
+        width={0}
+        sizes="100vw"
+        src="/3ai.png"
+        alt=""
+        className="w-full h-auto rounded-md"
+      />
       {/* </div> */}
       {/* {all time consuming} */}
       <div className=" flex flex-col items-center justify-center md:flex-row gap-6">
@@ -76,7 +103,10 @@ const Landingpage = () => {
         {/* {end} */}
       </div>
       {/* <div className="w-[800px] h-[500px] mt-10"> */}
-      <img
+      <Image
+        height={0}
+        width={0}
+        sizes="100vw"
         src="/4pr.png"
         alt=""
         className="w-[400px] lg:w-[800px] lg:py-[20px] h-auto rounded-md"
@@ -107,10 +137,24 @@ const Landingpage = () => {
         </div>
       </div>
       {/* <div className="w-[900px] h-[600px] mt-10 flex items-center justify-center"> */}
-      <img src="/5event.png" alt="" className="w-full h-auto rounded-md" />
+      <Image
+        height={0}
+        width={0}
+        sizes="100vw"
+        src="/5event.png"
+        alt=""
+        className="w-full h-auto rounded-md"
+      />
       {/* </div> */}
       {/* <div className="w-[700px] h-[400px] "> */}
-      <img src="/6we.png" alt="" className="w-full h-auto rounded-md" />
+      <Image
+        height={0}
+        width={0}
+        sizes="100vw"
+        src="/6we.png"
+        alt=""
+        className="w-full h-auto rounded-md"
+      />
       {/* </div> */}
       <div className="flex flex-col items-center justify-center md:flex-row gap-6">
         <div className="lg:w-[25%] w-[80%] md:w-[25%] text-[30px] font-semibold">
@@ -134,13 +178,34 @@ const Landingpage = () => {
         </div>
       </div>
       {/* <div className="w-[600px] h-[400px] mt-10"> */}
-      <img src="/7brand.png" alt="" className="w-full h-auto rounded-md" />
+      <Image
+        height={0}
+        width={0}
+        sizes="100vw"
+        src="/7brand.png"
+        alt=""
+        className="w-full h-auto rounded-md"
+      />
       {/* </div> */}
       {/* <div className="w-[900px] h-[700px] "> */}
-      <img src="/8every.png" alt="" className="w-full h-auto rounded-md" />
+      <Image
+        height={0}
+        width={0}
+        sizes="100vw"
+        src="/8every.png"
+        alt=""
+        className="w-full h-auto rounded-md"
+      />
       {/* </div> */}
       {/* <div className="w-[800px] h-[700px] "> */}
-      <img src="/9always.png" alt="" className="w-full h-auto rounded-md" />
+      <Image
+        height={0}
+        width={0}
+        sizes="100vw"
+        src="/9always.png"
+        alt=""
+        className="w-full h-auto rounded-md"
+      />
       {/* </div> */}
       <div className="flex flex-col gap-4 items-center justify-center">
         <Rocket size={40} />
@@ -154,7 +219,14 @@ const Landingpage = () => {
         </button>
       </div>
       {/* <div className="w-[700px] h-[400px]  flex justify-end items-center"> */}
-      <img src="/10sun.png" alt="" className="w-full h-auto rounded-md" />
+      <Image
+        height={0}
+        width={0}
+        sizes="100vw"
+        src="/10sun.png"
+        alt=""
+        className="w-full h-auto rounded-md"
+      />
       {/* </div> */}
     </div>
   );
